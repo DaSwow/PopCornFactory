@@ -35,14 +35,14 @@
 
         <Button
             android:id="@+id/btn_P"
-
             android:layout_width="237dp"
-            android:layout_height="39dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/round_button"
-            android:textColor="@color/mainText"
-            android:text="@string/btnGetMeInt"/>
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/black"
+            android:text="@string/btnGetMeInt"
+            />
 
     </LinearLayout>
 
