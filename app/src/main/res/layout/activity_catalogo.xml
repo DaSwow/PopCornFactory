@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@color/gray"
     tools:context=".Catalogo">
 
     <TextView
@@ -23,7 +23,6 @@
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="3"
-        android:textColor="@color/yellow" />
+        android:numColumns="3" />
 
 </LinearLayout>

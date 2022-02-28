@@ -29,17 +29,63 @@ class Catalogo : AppCompatActivity() {
     }
 
     fun cargarPeliculas(){
-        peliculas.add(Pelicula("Big hero",R.drawable.bighero6,R.drawable.headerbighero6,"When a devastating turn of events catapults them into the midst of a dangerous plot unfolding in the streets of San Fransokyo, Hiro turns to Baymax and his group of friends—who transform into a band of unlikely heroes."))
-        peliculas.add(Pelicula("1917",R.drawable.mil,R.drawable.milheader,"Partially inspired by stories told to Mendes by his paternal grandfather Alfred about his service during World War I"))
-        peliculas.add(Pelicula("Leap Year",R.drawable.leapyear,R.drawable.leapyearheader,"Leap Year is a 2010 romantic comedy directed by Anand Tucker and written by Harry Elfont and Deborah Kaplan. Leap Year stars Amy Adams and Matthew Goode."))
-        peliculas.add(Pelicula("Men in black",R.drawable.mib,R.drawable.mibheader,"A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth."))
-        peliculas.add(Pelicula("Toy story",R.drawable.toystory,R.drawable.toystoryheader,"Woody (Tom Hanks), a good-hearted cowboy doll who belongs to a young boy named Andy (John Morris), sees his position as Andy's favorite toy jeopardized when his parents buy him a Buzz Lightyear (Tim Allen) action figure. Even worse, the arrogant Buzz thinks he's a real spaceman on a mission to return to his home planet. When Andy's family moves to a new house, Woody and Buzz must escape the clutches of maladjusted neighbor Sid Phillips (Erik von Detten) and reunite with their boy."))
-        peliculas.add(Pelicula("Inception",R.drawable.inception,R.drawable.inceptionheader,"Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move."))
+        peliculas.add(Pelicula("Big hero",R.drawable.bighero6,R.drawable.headerbighero6,"When a devastating event befalls the city of San Fransokyo and catapults Hiro into the\n" +
+                "midst of danger, he turns to Baymax and his close friends adrenaline junkie Go Go\n" +
+                "Tomago, neatnik Wasabi, chemistry whiz Honey Lemon and fanboy Fred. Determined to\n" +
+                "uncover the mystery, Hiro transforms his friends into a band of high-tech heroes called 'Big Hero 6'."))
+        peliculas.add(Pelicula("1917",R.drawable.mil,R.drawable.milheader,"British trenches somewhere in France. World war has been going on for the third year,\n" +
+                "heroic illusions have dissipated; general mood - boredom and fatigue. Stuff the belly,\n" +
+                "sleep, return home to Christmas Eve. On another quiet day, when nothing happens, two\n" +
+                "young soldiers, Blake and Schofield, are summoned to the general, who instructs them to\n" +
+                "send an important message to Colonel MacKenzie in the Second Devonshire Battalion,\n" +
+                "whose telephone connection was cut off by the enemy."))
+        peliculas.add(Pelicula("Leap Year",R.drawable.leapyear,R.drawable.leapyearheader,"A woman who has an elaborate scheme to propose to her boyfriend on Leap Day, an Irish\n" +
+                "tradition which occurs every time the date February 29 rolls around, faces a major setback\n" +
+                "when bad weather threatens to derail her planned trip to Dublin. With the help of an\n" +
+                "innkeeper, however, her cross-country odyssey just might result in her getting engaged."))
+        peliculas.add(Pelicula("Men in black",R.drawable.mib,R.drawable.mibheader,"Based off of the comic book. Unbeknownst to other people, there is a private agency code\n" +
+                "named MiB. This agency is some kind of extra terrestrial surveillance corporation. Then,\n" +
+                "one of the agency&#39;s finest men only going by the name &quot;K&quot; (Tommy Lee Jones) , is\n" +
+                "recruiting for a new addition to the agency. He has chosen James Edwards (Will Smith) of\n" +
+                "the N.Y.P.D. Then, one day, a flying saucer crashes into Earth. This was an alien a part of\n" +
+                "the &quot;Bug&quot; race. He takes the body of a farmer (Vincent D&#39;Onofrio) and heads to New York.\n" +
+                "He is searching for a super energy source called &quot;The Galaxy&quot;. Now, Agents J and K must\n" +
+                "stop the bug before it can escape with the galaxy."))
+        peliculas.add(Pelicula("Toy story",R.drawable.toystory,R.drawable.toystoryheader,"Toy Story is about the &#39;secret life of toys&#39; when people are not around. When Buzz\n" +
+                "Lightyear, a space-ranger, takes Woody&#39;s place as Andy&#39;s favorite toy, Woody doesn&#39;t like\n" +
+                "the situation and gets into a fight with Buzz. Accidentaly Buzz falls out the window and\n" +
+                "Woody is accused by all the other toys of having killed him. He has to go out of the house\n" +
+                "to look for him so that they can both return to Andys room. But while on the outside they\n" +
+                "get into all kind of trouble while trying to get home."))
+        peliculas.add(Pelicula("Inception",R.drawable.inception,R.drawable.inceptionheader,"Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing\n" +
+                "valuable secrets from deep within the subconscious during the dream state, when the\n" +
+                "mind is at its most vulnerable. Cobb&#39;s rare ability has made him a coveted player in this\n" +
+                "treacherous new world of corporate espionage, but it has also made him an international\n" +
+                "fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at\n" +
+                "redemption. One last job could give him his life back but only if he can accomplish the\n" +
+                "impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to\n" +
+                "pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it\n" +
+                "could be the perfect crime. But no amount of careful planning or expertise can prepare the\n" +
+                "team for the dangerous enemy that seems to predict their every move. An enemy that only\n" +
+                "Cobb could have seen coming."))
 
         peliculas.add(Pelicula("Dr. House",R.drawable.drhouse,R.drawable.househeader,"The series follows the life of anti-social, pain killer addict, witty and arrogant medical doctor Gregory House (Hugh Laurie) with only half a muscle in his right leg. He and his team of medical doctors try to cure complex and rare diseases from very ill ordinary people in the United States of America."))
-        peliculas.add(Pelicula("Dr. Who",R.drawable.drwho,R.drawable.drwhoheader,"Doctor Who chronicled the adventures of an eccentric time-traveling scientist from the remote planet Gallifrey, home of the Time Lords. The Doctor, a Time Lord himself, traveled through time and space in his unique craft, the TARDIS, an acronym for Time and Relative Dimensions in Space."))
-        peliculas.add(Pelicula("Friends",R.drawable.friends,R.drawable.friendsheader,"Friends is a 90's Comedy TV show, based in Manhattan, about 6 friends who go through just about every life experience imaginable together; love, marriage, divorce, children, heartbreaks, fights, new jobs and job losses and all sorts of drama."))
-        peliculas.add(Pelicula("Smallville",R.drawable.smallville,R.drawable.smallvilleheader,"Smallville is based on the popular DC Comics character, Superman. The series follows the life of a teenage Clark Kent living in the town of Smallville, Kansas that is set at the start of the 21st century."))
+        peliculas.add(Pelicula("Dr. Who",R.drawable.drwho,R.drawable.drwhoheader,"Traveling across time and space, the immortal time-lord known as &#39;The Doctor&#39; travels across the\n" +
+                "universe with his many companions and his loyal shape-shifting space-ship: The TARDIS. The\n" +
+                "Doctor faces many threats across many generations: from The Daleks, The Cybermen and his time-\n" +
+                "lord adversary The Master to the sinister Davros, creator of The Daleks."))
+        peliculas.add(Pelicula("Friends",R.drawable.friends,R.drawable.friendsheader,"Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are\n" +
+                "six 20 something year-olds, living off of one another in the heart of New York City. Over the course\n" +
+                "of ten years, this average group of buddies goes through massive mayhem, family trouble, past and\n" +
+                "future romances, fights, laughs, tears and surprises as they learn what it really means to be a\n" +
+                "friend."))
+        peliculas.add(Pelicula("Smallville",R.drawable.smallville,R.drawable.smallvilleheader,"The numerous miraculous rescues by the local wonder boy Clark have aroused suspicions amongst\n" +
+                "colonials of Smallville. Interestingly, the boy has managed to downplay his acts of various heroic\n" +
+                "egresses in the past. They say he&#39;s either too fast or has a penchant for finding trouble. He was\n" +
+                "found by Martha and Jonathan Kent on the day of the Meteor Shower, and subsequently adopted.\n" +
+                "Clark&#39;s friend Lex Luthor, the only heir of Luthorcorp, has been secretly investigating grounds for\n" +
+                "Clark&#39;s outlandish valor. However, on the face of it, Clark just seems a normal boy who&#39;s slightly\n" +
+                "more secretive than usual."))
 
     }
 
